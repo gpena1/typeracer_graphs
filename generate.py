@@ -2,7 +2,8 @@ from GraphUtil import GraphUtil
 from StatsScraper import StatsScraper
 import sys
 username = sys.argv[1]
-ss = StatsScraper(username, csv_path='./data.csv')
+csv_path = sys.argv[2] if len(sys.argv) > 2 else ''
+ss = StatsScraper(username, csv_path=csv_path)
 gu = GraphUtil(ss.getData())
 gu.speed_distribution()
 gu.accuracy_distribution()
