@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 class GraphUtil:
     def __init__(self, races):
-        self.race_history = races
+        self.race_history = races[::-1]
 
     def speed_distribution(self):
         plt.figure()

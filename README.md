@@ -5,7 +5,7 @@ Note: some code was also borrowed from his stats scraper as well, and wherever I
 # How do I use it?
 Before you use it, create a folder `img` in the directory first. Then, you can use it as follows:
 ```shell
-python generate.py username
+python generate.py <username> [csv_path]
 ```
 where `username` is your TypeRacer **username**, not to be confused with your **display name**. \
 Do note that in order to use this, you need to install some packages which can be found in `requirements.txt`. Create a virtual environment, and then download them with:
