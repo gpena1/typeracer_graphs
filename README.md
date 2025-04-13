@@ -3,7 +3,7 @@ This is a recreation of [Skypromp's TypeRacer stats scraper](https://github.com/
 
 Note: some code was also borrowed from his stats scraper as well, and wherever I have borrowed any code I have placed docstrings at the top of said file denoting as much. If you think I have missed any such docstrings, let me know (or make a pull request)!
 # How do I use it?
-You can use it as follows:
+Before you use it, create a folder `img` in the directory first. Then, you can use it as follows:
 ```shell
 python generate.py username
 ```
