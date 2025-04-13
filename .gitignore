@@ -1,4 +1,3 @@
 .venv/*
-data.txt
+data.*
 img/*
-data.csv
