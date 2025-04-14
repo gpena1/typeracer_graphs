@@ -10,5 +10,5 @@ python generate.py <username> [csv_path]
 where `username` is your TypeRacer **username**, not to be confused with your **display name**. \
 Do note that in order to use this, you need to install some packages which can be found in `requirements.txt`. Create a virtual environment, and then download them with:
 ```shell
-pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
